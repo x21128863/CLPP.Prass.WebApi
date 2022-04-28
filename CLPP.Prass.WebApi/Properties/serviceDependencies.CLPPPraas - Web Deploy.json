@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/CLPPPraasWebApiapi/apis/CLPPPraasWebApi",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/praasdbserver/databases/PrassDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:CLPPPrassWebApiContext"
+    }
+  }
+}
